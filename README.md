@@ -2,4 +2,4 @@
 
 Result: 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/evernext10/Basic-API-REST-in-Django-with-Python/blob/master/src/result.PNG)
