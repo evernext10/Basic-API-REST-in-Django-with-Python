@@ -20,4 +20,14 @@ class Migration(migrations.Migration):
                 ('emp_id', models.IntegerField()),
             ],
         ),
+        migrations.CreateModel(
+            name='ejemplo',
+            fields=[
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('firstname', models.CharField(max_length=10)),
+                ('lastname', models.CharField(max_length=10)),
+                ('edad_id', models.IntegerField()),
+                ('estatura_id', models.FloatField()),
+            ],
+        ),
     ]

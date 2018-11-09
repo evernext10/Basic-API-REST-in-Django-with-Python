@@ -21,4 +21,5 @@ from webapp import views
 urlpatterns = [
     url('admin/', admin.site.urls),
     url('employees/',views.employeeList.as_view()),
+    url('ejemplo/',views.ejemploListcc.as_view()),
 ]

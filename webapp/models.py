@@ -7,3 +7,15 @@ class employess(models.Model):
 
     def __str__(self):
         return self.firstname
+
+
+
+
+class ejemplo(models.Model):
+    firstname = models.CharField(max_length=10)
+    lastname = models.CharField(max_length=10)
+    edad_id = models.IntegerField()
+    estatura_id = models.FloatField()
+
+    def __str__(self):
+        return self.firstname
